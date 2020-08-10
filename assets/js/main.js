@@ -1,13 +1,5 @@
 (function ($)
   { "use strict"
-  
-/* 1. Proloder */
-    $(window).on('load', function () {
-      $('#preloader-active').delay(450).fadeOut('slow');
-      $('body').delay(450).css({
-        'overflow': 'visible'
-      });
-    });
 
 
 /* 2. slick Nav */
@@ -165,6 +157,8 @@
         }
       });
     }
+
+// carousel for popular products)
 
 
 /* 6. Nice Selectorp  */
